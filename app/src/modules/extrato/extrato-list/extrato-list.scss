@@ -1,0 +1,30 @@
+.box-area-extrato {
+    width: 100%;
+}
+.extrato {
+    // width: 70%;
+    // border: 2px solid #05ff58;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #FFF;
+    text-align: center;
+    padding: 0px -20px 0px -20px;
+}
+
+.table {
+    color: #FFF !important;
+    padding: 0px 20px 0px 20px;
+    // border: 1px solid red;
+}
+
+table th {
+    border-color: #22026b;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #22026b!important;
+    border-bottom: 1px solid #05ff58!important;
+}

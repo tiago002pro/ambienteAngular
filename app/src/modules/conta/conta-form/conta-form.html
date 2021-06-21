@@ -1,0 +1,39 @@
+<div class="area-conta">
+	<div class="area-input-conta">
+		<form name="conta-form" class="area-form-conta">
+			<h3>Criar Conta Corrente</h3>
+			<input type="text" class="form-control" placeholder="Nome.." list="clientes" ng-model="$ctrl.cliente">
+			<datalist id="clientes" ng-model="$ctrl.cliente">
+				<option ng-repeat="dados in $ctrl.entity" value="{{dados.id}}">{{dados.nome}}</option>
+			</datalist>
+			<button class="btn btn-primary" ng-click="$ctrl.createContaCC($ctrl.cliente)" name="clicou">Criar</button>
+		</form>
+	
+		<form name="contaForm" class="area-form-conta">
+			<h3>Criar Conta Poupança</h3>
+			<input type="text" class="form-control" placeholder="Nome.." list="clientes" ng-model="$ctrl.cliente">
+			<datalist id="clientes">
+				<option ng-repeat="dados in $ctrl.entity" value="{{dados.id}}">{{dados.nome}}</option>
+			</datalist>
+			<button class="btn btn-primary" ng-click="$ctrl.createContaCP($ctrl.cliente)" ng-model="clicou">Criar</button>
+		</form>
+	</div>
+</div>
+
+<!-- <boxresponse ng-if="$ctrl.errorResp != null">
+	{{$ctrl.errorResp}}
+</boxresponse> -->
+<div class="box-response" ng-hide="$ctrl.errorResp == null">
+	<div class="alert alert-danger" ng-show="$ctrl.errorResp != null" >
+		{{$ctrl.errorResp}}
+		<button class="btn btn-danger" ng-click="$ctrl.reloadPage()" >Voltar</button>
+	</div>
+</div>
+
+
+
+
+
+
+
+

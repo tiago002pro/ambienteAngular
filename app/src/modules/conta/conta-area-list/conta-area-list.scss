@@ -1,0 +1,72 @@
+.box-area-conta {
+    width: 100%;
+    background-color: #22026b;
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.box-area-conta-top {
+    // border: 1px solid red;
+    // background-color: aqua;
+    width: 90%;
+    height: 80px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.box-area-conta-top-inside {
+    border: 2px solid #05ff58;
+    background-color: #6244a7;
+    width: 80%;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    line-height: 40px;
+}
+
+.box-area-conta-dados {
+    // border: 1px solid red;
+    // background-color: aqua;
+    width: 90%;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.box-area-conta-dados-inside {
+    border: 2px solid #05ff58;
+    // background-color: #6244a7;
+    width: 80%;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+.box-area-conta-dados-inside button {
+    width: 200px;
+    margin: 0 5px 0 5px;
+}
+
+.box-op {
+    display: flex;
+    justify-content: center;
+}
+
+.box-inside h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
