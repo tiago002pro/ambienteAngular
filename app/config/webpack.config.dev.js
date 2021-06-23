@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 module.exports = {
     context: __dirname + '/../src',
     devServer: {
-        port: 9000,
+        port: 9090,
      },
     entry: __dirname + '/../src/app.module.ts',
     module: {
@@ -57,7 +57,7 @@ module.exports = {
     },
     stats: {
         children: true,
-        // logging: 'verbose',
+        logging: 'verbose',
         colors: true,
         reasons: true
     }

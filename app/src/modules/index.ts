@@ -1,5 +1,0 @@
-import './management'
-import './clientes'
-import './conta'
-import './extrato'
-import './banco'
