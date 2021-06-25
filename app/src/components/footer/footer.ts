@@ -1,5 +1,5 @@
-import './footer.scss'
-import template from './footer.html'
+// import './footer.scss'
+import template from './foo'
 
 class FooterController {
     constructor () {}
