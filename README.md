@@ -1,3 +1,1 @@
-Treinamento SG Sistemas
-
-Sistem de Gerenciamento de um Banco.
+Ambiente para comçar a implementar no angular JS
